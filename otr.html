@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+
+<form action="send.php" method="post"" name="contacto" id ="contacto" >
+
+Nombre completo <input name="nombre" type="text" id="nombre completo"size="30" maxlength="100">
+<br>
+<br>
+Correo electronico <input name="email" type="text" onBlur="MM_validateForm('email','','NisEmail');return document.MM_returnValue" size="25" maxlength="100" >
+<br>
+<br>
+Población <input name="poblacion" type="text" onBlur="MM_validateForm('poblacion','','R');return document.MM_returnValue" size="20" maxlength="60">
+<br>
+<br>
+Sexo
+<br>
+<br>
+<input type="radio" name="GrupoOpciones1" value="1"id="GrupoOpciones1_0" />
+Hombre
+<br>
+<input type="radio" name="GrupoOpciones1" value="2"id="GrupoOpciones1_1"/> Mujer
+<br>
+<br>
+Aficiones
+<br>
+
+<textarea cols="50" rows="5" name="comentarios"></textarea>
+<br>
+<br>
+Que opina de nuestra pagina
+<br>
+<br>
+<input type="radio" name="GrupoOpciones2" value="mucho" >me ha gustado mucho
+<br>
+<input type="radio" name="GrupoOpciones2" value="regular" >no esta mal
+<br>
+<input type="radio" name="GrupoOpciones2" value="mal" >no me ha gustado nada
+<br>
+<br>
+Danos tu opinion
+<br>
+<textarea cols="50" rows="5" name="opinion"></textarea>
+<br>
+<br>
+<input type="submit" value="Enviar formulario">
+<input type="Reset" value="Borrar datos">
+
+</form>
+</table>
+    <title>UwU</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin:0;}
+
+.icon-bar {
+  width: 100%;
+  background-color: #1548B4;
+  overflow: auto;
+}
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 8px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #000000;
+}
+</style>
+<body>
+
+<div class="icon-bar">
+  <a href="index1total.htm"><i class="fa fa-search"></i>inicio</i></a> 
+  <a href="modelo.html"><i class="fa fa-search"></i>modelo</a> 
+  <a href="amm.html"><i class="fa fa-envelope"></i>amm</a> 
+  <a class="active" href="#"><i class="fa fa-home"></i>otr</a>
+  
+</div>
+<br>
+</br>
+<table>
